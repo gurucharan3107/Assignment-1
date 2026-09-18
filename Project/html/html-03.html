@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML - Tables and Forms</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #f8fafc; padding: 2rem; max-width: 700px; margin: auto; }
+    .nav-bar { display: flex; justify-content: space-between; margin-bottom: 2rem; }
+    .nav-bar a { color: #38bdf8; text-decoration: none; }
+    .card { background: #1e293b; padding: 1.5rem; border-radius: 8px; border: 1px solid #334155; margin-bottom: 1.5rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #334155; padding: 0.5rem; text-align: left; }
+    th { background: #0f172a; }
+    form { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1rem; }
+    input, select { padding: 0.5rem; background: #0f172a; border: 1px solid #334155; color: #fff; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="nav-bar">
+    <a href="../index.html">&larr; Home</a>
+    <a href="index.html">HTML Programs &rarr;</a>
+  </div>
+  <div class="card">
+    <h2>Data Table Example</h2>
+    <table>
+      <thead><tr><th>ID</th><th>Course</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>01</td><td>Embedded Systems</td><td>Active</td></tr>
+        <tr><td>02</td><td>Web Technologies</td><td>Completed</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <h2>Form Elements</h2>
+    <form>
+      <input type="text" placeholder="Full Name" />
+      <input type="email" placeholder="Email Address" />
+      <select><option>Select Option</option><option>Option A</option></select>
+    </form>
+  </div>
+</body>
+</html>
